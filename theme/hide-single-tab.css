@@ -7,4 +7,10 @@
     margin-bottom: 0px !important;
 }
 
-/* TODO: Hidde tabbar bottom border */
+.tabbrowser-tab tab:only-of-type {
+    display: none;
+}
+
+#tabs-newtab-button {
+    display: none;
+}
